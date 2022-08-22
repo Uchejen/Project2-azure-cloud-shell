@@ -1,6 +1,11 @@
-# Project2-azure-cloud-shell
-This is a repo for the second project in Azure Cloud shell exercise
+# Overview
+This is a second Project of the Udacity Devops training: Building a CI/CD Pipeline
+A summary of the Task Performed in this project include:
+- Using Github actions with Mkefile and reuirement.txt
+- Using Application code to perform initial lint, test and install cycle
+- intergration of the Project with Azure Pipeline to enable continuous Delivery to Azure App Service
 
+# Project Plan
 ## Project Spreadsheet
 This Spreadsheet shows a detailed weekly, quarterly and Yearly plan for the Project.
 [Spreadsheet link](https://docs.google.com/spreadsheets/d/1xy7B-lyBBW9qWSJhsjvouWkt3abNHoRkGnAv9fvSJII/edit#gid=1348135932)
@@ -8,6 +13,9 @@ This Spreadsheet shows a detailed weekly, quarterly and Yearly plan for the Proj
 ## Trello Board
 This Trello Board shows a simple work flow of To-dos, In-Progress and Completed Project Tasks
 [Trello link](https://trello.com/b/UZPqIj7M/project2-azure-devops-training)
+
+# Achitectural Diagram
+This shows the key parts of the System work
 
 
 [![Python application test with Github Actions](https://github.com/Uchejen/Project2-azure-cloud-shell/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Uchejen/Project2-azure-cloud-shell/actions/workflows/pythonapp.yml)
