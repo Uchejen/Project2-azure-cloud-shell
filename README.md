@@ -19,7 +19,7 @@ This Trello Board shows a simple work flow of To-dos, In-Progress and Completed 
 This shows the key parts of the System work
 
 # Project Cloned Into Azure Cloud Shell
-![screenshot](https://github.com/Uchejen/Project2-azure-cloud-shell/Screenshots/blob/main/repo_clone.jpg?raw=true)
+![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/repo_clone.JPG?raw=true)
 
 [![Python application test with Github Actions](https://github.com/Uchejen/Project2-azure-cloud-shell/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Uchejen/Project2-azure-cloud-shell/actions/workflows/pythonapp.yml)
 
