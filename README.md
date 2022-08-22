@@ -22,7 +22,7 @@ This shows the key parts of the System work
 ## Creating a Makefile, Requirements.txt and Virtual Environment
 I created a Makefile, requirements.txt in Azure cloud Shell and added the codes shown in the screenshot shown below and saved
 ![screenshot](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/MAkefile_command.JPG?raw=true)
-![screenshot](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/Requirements.JPG?raw=true)
+![screenshot](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/Requriements.JPG?raw=true)
 
 Also, the code shown below was used to create a Python Vurtual Environment. Run the following command ...
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/virt_env.JPG?raw=true)
