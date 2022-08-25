@@ -1,2 +1,9 @@
 pylint
 pytest
+Flask
+pandas
+scikit-learn
+jinja2
+locust
+importlib-metadata
+joblib
