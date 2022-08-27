@@ -16,7 +16,7 @@ This Trello Board shows a simple work flow of To-dos, In-Progress and Completed 
 
 ## Architectural Diagram
 This diagram shows the workflow of the Project
-![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/Architectural Diagram.JPG?raw=true)
+![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/Architectural_Diagram.JPG?raw=true)
 
 
 # CI: Set Up Azure Cloud Shell
@@ -27,6 +27,7 @@ This screenshot shows the cloning of the repo into Azure cloud shell
 ## Creating a Makefile, Requirements.txt and Virtual Environment
 I created a Makefile, requirements.txt in Azure cloud Shell and added the codes shown in the screenshot shown below and saved
 ![screenshot](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/MAkefile_command.JPG?raw=true)
+
 ![screenshot](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/Requriements.JPG?raw=true)
 
 Also, the code shown below was used to create a Python Vurtual Environment. Run the following command ...
@@ -36,6 +37,7 @@ Also, the code shown below was used to create a Python Vurtual Environment. Run 
 ## Local test
 The two screenshots below shows how the project script and the test script were created. it also shows how the make all command was run and the ouput of the test
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/Makefile1.JPG?raw=true)
+
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/Makefile2.JPG?raw=true)
 
 # CI: Configure Github Actions
@@ -54,6 +56,7 @@ I replaced the scaffolding code with Flask Machine Learning code and then Author
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/webappdeploy.JPG?raw=true)
 
 After the App was deployed, I copied the link of the App in a seperate window to confirm if the App is up and running. The screenshot below shows the result
+
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/appworks.JPG?raw=true)
 
 Next, using the "python app.py" command to also test the App
@@ -63,7 +66,7 @@ Using the "./make_predict_azure_app.sh" command to test the app remotely
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/model_loaded.JPG?raw=true)
 
 Finally using the "az webapp log tail" command to stream the logs from my running application
-![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/webapp log tail.JPG?raw=true)
+![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/webapp_log_tail.JPG?raw=true)
 
 
 ## Azure Pipieline
