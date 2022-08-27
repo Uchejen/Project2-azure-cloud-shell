@@ -65,8 +65,11 @@ Next, using the "python app.py" command to also test the App
 Using the "./make_predict_azure_app.sh" command to test the app remotely
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/model_loaded.JPG?raw=true)
 
-Finally using the "az webapp log tail" command to stream the logs from my running application
+Using the "az webapp log tail" command to stream the logs from my running application
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/webapp_log_tail.JPG?raw=true)
+
+finally, using the locustfile.py to perform a validation test on the Webapp via load testing
+![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/locustfile.JPG?raw=true)
 
 
 ## Azure Pipieline
