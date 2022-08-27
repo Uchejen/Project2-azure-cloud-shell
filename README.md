@@ -69,7 +69,7 @@ Using the "az webapp log tail" command to stream the logs from my running applic
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/webapp_log_tail.JPG?raw=true)
 
 finally, using the locustfile.py to perform a validation test on the Webapp via load testing
-![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/locustfile.JPG?raw=true)
+![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/locustfile1.JPG?raw=true)
 
 
 ## Azure Pipieline
