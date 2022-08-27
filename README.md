@@ -16,7 +16,7 @@ This Trello Board shows a simple work flow of To-dos, In-Progress and Completed 
 
 ## Architectural Diagram
 This diagram shows the workflow of the Project
-![screenshot](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/Architectural Diagram.JPG?raw=true)
+![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/Architectural Diagram.JPG?raw=true)
 
 
 # CI: Set Up Azure Cloud Shell
@@ -41,6 +41,7 @@ The two screenshots below shows how the project script and the test script were 
 # CI: Configure Github Actions
 The picture below is a screenshot of passing Actions. A badge is also attached below it
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/pythonapp.JPG?raw=true)
+
 [![Python application test with Github Actions](https://github.com/Uchejen/Project2-azure-cloud-shell/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Uchejen/Project2-azure-cloud-shell/actions/workflows/pythonapp.yml)
 
 
@@ -51,14 +52,19 @@ Firstly I cloned the Flask Starter code and added it to my Project
 ## Azure App Services
 I replaced the scaffolding code with Flask Machine Learning code and then Authorized Azure App Service
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/webappdeploy.JPG?raw=true)
+
 After the App was deployed, I copied the link of the App in a seperate window to confirm if the App is up and running. The screenshot below shows the result
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/appworks.JPG?raw=true)
+
 Next, using the "python app.py" command to also test the App
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/pythonapppy.JPG?raw=true)
+
 Using the "./make_predict_azure_app.sh" command to test the app remotely
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/model_loaded.JPG?raw=true)
-finally using the "az webapp log tail" command to stream the logs from my running application
+
+Finally using the "az webapp log tail" command to stream the logs from my running application
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/webapp log tail.JPG?raw=true)
+
 
 ## Azure Pipieline
 The following steps were used to set up the Azure Pipeline
@@ -69,10 +75,13 @@ The following steps were used to set up the Azure Pipeline
 - Save, run and Validate
 The picture below shows the result of the Build and Web App Deployment
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/Azure_pipeline.JPG?raw=true)
+
 The picture below shows the deployed Web App
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/webappdeploy1.JPG?raw=true)
+
 The Picture below shows the Successful build
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/build.JPG?raw=true)
+
 Finally, everything was pushed back to gitHub
 ![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/gitpush.JPG?raw=true)
 
